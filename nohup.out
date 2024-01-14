@@ -1,0 +1,249 @@
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "./tools/train.py", line 7, in <module>
+  File "./tools/train.py", line 7, in <module>
+Traceback (most recent call last):
+  File "./tools/train.py", line 7, in <module>
+    import mmcv    
+import mmcv  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/__init__.py", line 4, in <module>
+
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/__init__.py", line 4, in <module>
+    from .fileio import *
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/fileio/__init__.py", line 4, in <module>
+    from .fileio import *
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/fileio/__init__.py", line 4, in <module>
+    from .io import dump, load, register_handler
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/fileio/io.py", line 4, in <module>
+    from .io import dump, load, register_handler
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/fileio/io.py", line 4, in <module>
+    from ..utils import is_list_of, is_str
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/utils/__init__.py", line 31, in <module>
+    from ..utils import is_list_of, is_str
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/utils/__init__.py", line 31, in <module>
+    from .parrots_wrapper import (CUDA_HOME, BuildExtension, CppExtension,
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/utils/parrots_wrapper.py", line 75, in <module>
+    from .parrots_wrapper import (CUDA_HOME, BuildExtension, CppExtension,
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/utils/parrots_wrapper.py", line 75, in <module>
+    CUDA_HOME = _get_cuda_home()
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/utils/parrots_wrapper.py", line 12, in _get_cuda_home
+    CUDA_HOME = _get_cuda_home()
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/utils/parrots_wrapper.py", line 12, in _get_cuda_home
+    from torch.utils.cpp_extension import CUDA_HOME
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/torch/utils/cpp_extension.py", line 19, in <module>
+    from torch.utils.cpp_extension import CUDA_HOME
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/torch/utils/cpp_extension.py", line 19, in <module>
+    from setuptools.command.build_ext import build_ext
+      File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/setuptools/command/build_ext.py", line 20, in <module>
+from setuptools.command.build_ext import build_ext
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/setuptools/command/build_ext.py", line 17, in <module>
+        from Cython.Distutils.build_ext import build_ext as _build_ext__import__('Cython.Compiler.Main')
+
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/Cython/Distutils/__init__.py", line 1, in <module>
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/Cython/Compiler/Main.py", line 28, in <module>
+    from Cython.Distutils.build_ext import build_ext
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/Cython/Distutils/build_ext.py", line 25, in <module>
+    from .Scanning import PyrexScanner, FileSourceDescriptor
+  File "Cython/Compiler/Scanning.py", line 1, in init Cython.Compiler.Scanning
+    from .old_build_ext import old_build_ext as build_ext
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/Cython/Distutils/old_build_ext.py", line 38, in <module>
+    and not _check_stack('pyximport/pyxbuild.py')
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/Cython/Plex/__init__.py", line 39, in <module>
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/Cython/Distutils/old_build_ext.py", line 30, in _check_stack
+    for frame in inspect.getouterframes(inspect.currentframe(), 0):Traceback (most recent call last):
+
+      File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/inspect.py", line 1483, in getouterframes
+  File "./tools/train.py", line 7, in <module>
+from .Scanners import Scanner
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 963, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 882, in _find_spec
+    import mmcv
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/__init__.py", line 4, in <module>
+KeyboardInterrupt
+    from .fileio import *
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/fileio/__init__.py", line 4, in <module>
+    from .io import dump, load, register_handler
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/fileio/io.py", line 4, in <module>
+    from ..utils import is_list_of, is_str
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/utils/__init__.py", line 31, in <module>
+    from .parrots_wrapper import (CUDA_HOME, BuildExtension, CppExtension,
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/utils/parrots_wrapper.py", line 75, in <module>
+    CUDA_HOME = _get_cuda_home()
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/utils/parrots_wrapper.py", line 12, in _get_cuda_home
+    frameinfo = (frame,) + getframeinfo(frame, context)
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/inspect.py", line 1453, in getframeinfo
+    from torch.utils.cpp_extension import CUDA_HOME
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/torch/utils/cpp_extension.py", line 19, in <module>
+    from setuptools.command.build_ext import build_ext
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/setuptools/command/build_ext.py", line 17, in <module>
+    from Cython.Distutils.build_ext import build_ext as _build_ext
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/Cython/Distutils/__init__.py", line 1, in <module>
+    from Cython.Distutils.build_ext import build_ext
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/Cython/Distutils/build_ext.py", line 25, in <module>
+    from .old_build_ext import old_build_ext as build_ext
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/Cython/Distutils/old_build_ext.py", line 38, in <module>
+    and not _check_stack('pyximport/pyxbuild.py')
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/Cython/Distutils/old_build_ext.py", line 30, in _check_stack
+    for frame in inspect.getouterframes(inspect.currentframe(), 0):
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/inspect.py", line 1483, in getouterframes
+    filename = getsourcefile(frame) or getfile(frame)
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/inspect.py", line 696, in getsourcefile
+    if getattr(getmodule(object, filename), '__loader__', None) is not None:
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/inspect.py", line 733, in getmodule
+    frameinfo = (frame,) + getframeinfo(frame, context)
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/inspect.py", line 1453, in getframeinfo
+    if ismodule(module) and hasattr(module, '__file__'):
+KeyboardInterrupt
+    filename = getsourcefile(frame) or getfile(frame)
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/inspect.py", line 696, in getsourcefile
+    if getattr(getmodule(object, filename), '__loader__', None) is not None:
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/inspect.py", line 732, in getmodule
+    for modname, module in list(sys.modules.items()):
+KeyboardInterrupt
+    import mmcv
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/__init__.py", line 4, in <module>
+    from .fileio import *
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/fileio/__init__.py", line 4, in <module>
+    from .io import dump, load, register_handler
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/fileio/io.py", line 4, in <module>
+    from ..utils import is_list_of, is_str
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/utils/__init__.py", line 31, in <module>
+    from .parrots_wrapper import (CUDA_HOME, BuildExtension, CppExtension,
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/utils/parrots_wrapper.py", line 75, in <module>
+    CUDA_HOME = _get_cuda_home()
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/utils/parrots_wrapper.py", line 12, in _get_cuda_home
+    from torch.utils.cpp_extension import CUDA_HOME
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/torch/utils/cpp_extension.py", line 19, in <module>
+    from setuptools.command.build_ext import build_ext
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/setuptools/command/build_ext.py", line 17, in <module>
+    from Cython.Distutils.build_ext import build_ext as _build_ext
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/Cython/Distutils/__init__.py", line 1, in <module>
+    from Cython.Distutils.build_ext import build_ext
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/Cython/Distutils/build_ext.py", line 25, in <module>
+    from .old_build_ext import old_build_ext as build_ext
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/Cython/Distutils/old_build_ext.py", line 37, in <module>
+    if (not _check_stack('setuptools/extensions.py')
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/Cython/Distutils/old_build_ext.py", line 30, in _check_stack
+    for frame in inspect.getouterframes(inspect.currentframe(), 0):
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/inspect.py", line 1483, in getouterframes
+    frameinfo = (frame,) + getframeinfo(frame, context)
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/inspect.py", line 1453, in getframeinfo
+    filename = getsourcefile(frame) or getfile(frame)
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/inspect.py", line 696, in getsourcefile
+    if getattr(getmodule(object, filename), '__loader__', None) is not None:
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/inspect.py", line 742, in getmodule
+    os.path.realpath(f)] = module.__name__
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/posixpath.py", line 388, in realpath
+    path, ok = _joinrealpath(filename[:0], filename, {})
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/posixpath.py", line 421, in _joinrealpath
+    newpath = join(path, name)
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/posixpath.py", line 75, in join
+    def join(a, *p):
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/torch/distributed/launch.py", line 263, in <module>
+    main()
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/torch/distributed/launch.py", line 256, in main
+    process.wait()
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/subprocess.py", line 971, in wait
+    return self._wait(timeout=timeout)
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/subprocess.py", line 1601, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/subprocess.py", line 1559, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+Traceback (most recent call last):
+  File "./tools/train.py", line 7, in <module>
+    import mmcv
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/__init__.py", line 4, in <module>
+    from .fileio import *
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/fileio/__init__.py", line 4, in <module>
+    from .io import dump, load, register_handler
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/fileio/io.py", line 4, in <module>
+    from ..utils import is_list_of, is_str
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/utils/__init__.py", line 31, in <module>
+    from .parrots_wrapper import (CUDA_HOME, BuildExtension, CppExtension,
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/utils/parrots_wrapper.py", line 75, in <module>
+    CUDA_HOME = _get_cuda_home()
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/utils/parrots_wrapper.py", line 12, in _get_cuda_home
+    from torch.utils.cpp_extension import CUDA_HOME
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/torch/utils/cpp_extension.py", line 130, in <module>
+    CUDA_HOME = _find_cuda_home()
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/torch/utils/cpp_extension.py", line 49, in _find_cuda_home
+    if cuda_home and not torch.cuda.is_available():
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/torch/cuda/__init__.py", line 36, in is_available
+    not torch._C._cuda_isDriverSufficient()):
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "./tools/train.py", line 7, in <module>
+    import mmcv
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/__init__.py", line 4, in <module>
+    from .fileio import *
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/fileio/__init__.py", line 4, in <module>
+    from .io import dump, load, register_handler
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/fileio/io.py", line 4, in <module>
+    from ..utils import is_list_of, is_str
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/utils/__init__.py", line 31, in <module>
+    from .parrots_wrapper import (CUDA_HOME, BuildExtension, CppExtension,
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/utils/parrots_wrapper.py", line 75, in <module>
+    CUDA_HOME = _get_cuda_home()
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/utils/parrots_wrapper.py", line 12, in _get_cuda_home
+    from torch.utils.cpp_extension import CUDA_HOME
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/torch/utils/cpp_extension.py", line 130, in <module>
+    CUDA_HOME = _find_cuda_home()
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/torch/utils/cpp_extension.py", line 49, in _find_cuda_home
+    if cuda_home and not torch.cuda.is_available():
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/torch/cuda/__init__.py", line 36, in is_available
+    not torch._C._cuda_isDriverSufficient()):
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "./tools/train.py", line 7, in <module>
+    import mmcv
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/__init__.py", line 4, in <module>
+    from .fileio import *
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/fileio/__init__.py", line 4, in <module>
+    from .io import dump, load, register_handler
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/fileio/io.py", line 4, in <module>
+    from ..utils import is_list_of, is_str
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/utils/__init__.py", line 31, in <module>
+    from .parrots_wrapper import (CUDA_HOME, BuildExtension, CppExtension,
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/utils/parrots_wrapper.py", line 75, in <module>
+    CUDA_HOME = _get_cuda_home()
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/utils/parrots_wrapper.py", line 12, in _get_cuda_home
+    from torch.utils.cpp_extension import CUDA_HOME
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/torch/utils/cpp_extension.py", line 130, in <module>
+    CUDA_HOME = _find_cuda_home()
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/torch/utils/cpp_extension.py", line 49, in _find_cuda_home
+    if cuda_home and not torch.cuda.is_available():
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/torch/cuda/__init__.py", line 36, in is_available
+    not torch._C._cuda_isDriverSufficient()):
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "./tools/train.py", line 7, in <module>
+    import mmcv
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/__init__.py", line 4, in <module>
+    from .fileio import *
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/fileio/__init__.py", line 4, in <module>
+    from .io import dump, load, register_handler
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/fileio/io.py", line 4, in <module>
+    from ..utils import is_list_of, is_str
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/utils/__init__.py", line 31, in <module>
+    from .parrots_wrapper import (CUDA_HOME, BuildExtension, CppExtension,
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/utils/parrots_wrapper.py", line 75, in <module>
+    CUDA_HOME = _get_cuda_home()
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/mmcv/utils/parrots_wrapper.py", line 12, in _get_cuda_home
+    from torch.utils.cpp_extension import CUDA_HOME
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/torch/utils/cpp_extension.py", line 130, in <module>
+    CUDA_HOME = _find_cuda_home()
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/torch/utils/cpp_extension.py", line 49, in _find_cuda_home
+    if cuda_home and not torch.cuda.is_available():
+  File "/home/ssd5/yfk/nzl/anaconda3/envs/paddle21/lib/python3.7/site-packages/torch/cuda/__init__.py", line 36, in is_available
+    not torch._C._cuda_isDriverSufficient()):
+KeyboardInterrupt
